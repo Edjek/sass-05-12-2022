@@ -1,0 +1,4 @@
+header {
+    @include layout(20px, 10px);
+    background-color: $main-color;
+}
