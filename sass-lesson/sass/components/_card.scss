@@ -1,0 +1,30 @@
+.card {
+    width: 300px;
+    min-height: 550px;
+    border-radius: $border-radius;
+    box-shadow: 4px 4px 16px #333;
+    &-img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        object-position: top;
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+    }
+    .card-title {
+        @extend %title;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .card-description-1, .card-description-2 {
+        @include paragraphe-2(10px, $main-color, 14px);
+    }
+
+    .card-link {
+        margin: 20px auto;
+    }
+    &:hover {
+        box-shadow: 4px 4px 16px #999;
+    }
+}

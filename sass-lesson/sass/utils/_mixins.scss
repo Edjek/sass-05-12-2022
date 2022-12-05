@@ -12,6 +12,11 @@
     font-size: $font-size;
 }
 
+@mixin paragraphe-2($padding, $color, $fsize){
+    padding: $padding;
+    color: $color;
+    font-size: $fsize;
+}
 
 // @mixin paragraphe2{
 //     padding: 10px;
