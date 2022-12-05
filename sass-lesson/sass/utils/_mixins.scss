@@ -6,12 +6,15 @@
     border-radius: 5px;
 }
 
-// mixin nom=paragraphe 3 parametres
-// padding
-// color
-// font-size
-@mixin paragraphe($padding, $color, $font-size){
-    padding: $padding;
+@mixin paragraphe($a, $color, $font-size){
+    padding: $a;
     color: $color;
     font-size: $font-size;
 }
+
+
+// @mixin paragraphe2{
+//     padding: 10px;
+//     color: blue;
+//     font-size: 18px;
+// }

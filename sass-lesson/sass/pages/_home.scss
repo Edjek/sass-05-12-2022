@@ -15,6 +15,10 @@
             background-color: red;
         }
     }
+    p {
+        // @include paragraphe2;
+        @extend %paragraph;
+    }
 }
 
 .description {
@@ -24,5 +28,10 @@
 
 .description p {
     // Utilisation d'une mixin
-    @include paragraphe(10px, #999, 20px);
+    @include paragraphe($padding, $paragraphe-color, 20px);
+    // @extend %paragraph;
+}
+
+.cards{
+    
 }
