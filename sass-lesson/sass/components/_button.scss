@@ -1,0 +1,17 @@
+.btn {
+    border-radius: $border-radius;
+    padding: $padding;
+    color: #fff;
+    // l'élément "&" permet d'inserer le nom du selecteur dans lequel il est imbriqué
+    // Ici cela va donner : .btn-primary
+    &-primary {
+        background-color: $main-color;
+    }
+    // l'élément "&" permet d'inserer le nom du selecteur dans lequel il est imbriqué
+    // Ici cela va donner : .btn:hover
+    //Attention le Nesting créé des selecteurs descendant par défaut
+    // L'utilisation du préfixe "&" va créer un selecteur indépendant
+    &:hover {
+        background-color: blue;
+    }
+}

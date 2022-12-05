@@ -1,0 +1,28 @@
+// Nesting (imbriquation)
+//Attention le Nesting créé des selecteurs descendant par défaut
+// L'utilisation du préfixe "&" va créer un selecteur indépendant
+.hero {
+    // Utilisation d'une mixin
+    @include layout(50px, 30px);
+    padding: $padding;
+
+    h2 {
+        margin: 30px 0;
+    }
+    .link {
+        color: red;
+        &:hover {
+            background-color: red;
+        }
+    }
+}
+
+.description {
+    // Utilisation d'une mixin
+    @include layout(40px, 20px);
+}
+
+.description p {
+    // Utilisation d'une mixin
+    @include paragraphe(10px, #999, 20px);
+}

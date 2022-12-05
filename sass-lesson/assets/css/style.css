@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #fff;
+}
+.btn-primary {
+  background-color: rgb(38, 49, 201);
+}
+.btn:hover {
+  background-color: blue;
+}
+
+.hero {
+  padding: 50px;
+  max-width: 1080px;
+  margin: 30px 0;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+.hero h2 {
+  margin: 30px 0;
+}
+.hero .link {
+  color: red;
+}
+.hero .link:hover {
+  background-color: red;
+}
+
+.description {
+  padding: 40px;
+  max-width: 1080px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+body {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+h1 {
+  background-color: green;
+  font-weight: bold;
+  color: rgb(38, 49, 201);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: rgb(38, 49, 201);
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}/*# sourceMappingURL=style.css.map */

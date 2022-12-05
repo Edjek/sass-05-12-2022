@@ -1,0 +1,17 @@
+// Les mixins permettent d'insérer des bouts de code avec des paramètres personnalisables
+@mixin layout($padding, $margin){
+    padding: $padding;
+    max-width: 1080px;
+    margin: $margin 0;
+    border-radius: 5px;
+}
+
+// mixin nom=paragraphe 3 parametres
+// padding
+// color
+// font-size
+@mixin paragraphe($padding, $color, $font-size){
+    padding: $padding;
+    color: $color;
+    font-size: $font-size;
+}
