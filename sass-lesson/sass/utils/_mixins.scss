@@ -2,7 +2,7 @@
 @mixin layout($padding, $margin){
     padding: $padding;
     max-width: 1080px;
-    margin: $margin 0;
+    margin: $margin auto;
     border-radius: 5px;
 }
 
