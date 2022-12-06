@@ -12,12 +12,17 @@
         margin: 30px 0;
         font-size: multiplication(20px, 2);
     }
+    .hero-title {
+
+    }
     .link {
         color: red;
         &:hover {
             background-color: red;
         }
+        
     }
+    
     p {
         // @include paragraphe2;
         @extend %paragraph;

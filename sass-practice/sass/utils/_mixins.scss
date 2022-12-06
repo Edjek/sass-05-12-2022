@@ -1,0 +1,8 @@
+@mixin input($padding, $font-size, $max-width) {
+    display: block;
+    padding: $padding;
+    font-size: $font-size;
+    width: 100%;
+    max-width: $max-width;
+    margin: 50px auto;
+}
