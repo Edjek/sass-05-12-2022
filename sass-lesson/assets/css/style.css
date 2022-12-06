@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(99, 141, 213);
+  color: rgb(99, 213, 164);
 }
 
 a {
@@ -46,10 +46,10 @@ a {
   color: #fff;
 }
 .btn-primary {
-  background-color: rgb(99, 141, 213);
+  background-color: rgb(99, 213, 164);
 }
 .btn:hover {
-  background-color: #2d59a5;
+  background-color: #2da571;
 }
 
 .card {
@@ -73,21 +73,29 @@ a {
   text-align: center;
   margin: 20px 0;
 }
-.card .card-description-1, .card .card-description-2 {
+.card .card-description-1 {
   padding: 10px;
-  color: rgb(99, 141, 213);
+  color: rgb(99, 213, 164);
   font-size: 14px;
   text-align: left;
+  margin-bottom: 1px;
+}
+.card .card-description-2 {
+  padding: 10px;
+  color: rgb(99, 213, 164);
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 2px;
 }
 .card .card-link {
   margin: 20px auto;
 }
 .card:hover {
-  box-shadow: 4px 4px 16px #666666;
+  box-shadow: 4px 4px 16px #555;
 }
 
 header {
-  background-color: rgb(99, 141, 213);
+  background-color: rgb(99, 213, 164);
   padding: 20px 80px;
 }
 

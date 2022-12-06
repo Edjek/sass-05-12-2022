@@ -13,5 +13,6 @@
     // L'utilisation du préfixe "&" va créer un selecteur indépendant
     &:hover {
         background-color: darken($main-color, 20%);
+        // background-color: $main-color-dark;
     }
 }

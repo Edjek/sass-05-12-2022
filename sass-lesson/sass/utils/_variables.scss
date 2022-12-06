@@ -1,9 +1,14 @@
 // Les variables permettent de sauvegarder des données
 // Utile pour les éléments qui ont lieu à la charte graphique par exemple
 // Ou tout ce qui pourrait se répéter et que l'on souhaiterais modifier en même temps
-$main-color: rgb(99, 141, 213);
+$main-color: rgb(99, 213, 164);
+$main-color-dark: darken($main-color, 20%);
+$main-color-darker: darken($main-color, 40%);
+$main-color-light: lighten($main-color, 20%);
+$main-color-lighter: lighten($main-color, 40%);
 $text-color: #333;
 $padding: 10px 30px;
 $border-radius: 5px;
 $paragraphe-color: darken(rgb(99, 141, 213), 20%);
-$shadow-color: #999;
+$box-shadow: 4px 4px 16px #999;
+$box-shadow-hover: 4px 4px 16px #555;

@@ -2,7 +2,7 @@
     width: 300px;
     min-height: 550px;
     border-radius: $border-radius;
-    box-shadow: 4px 4px 16px $shadow-color;
+    box-shadow: $box-shadow;
     text-align: center;
     &-img{
         width: 100%;
@@ -18,15 +18,22 @@
         margin: 20px 0;
     }
 
-    .card-description-1, .card-description-2 {
-        @include paragraphe-2(10px, $main-color, 14px);
-        text-align: left;
+    @for $i from 1 through 2 {
+        .card-description-#{$i} {
+            @include paragraphe-2(10px, $main-color, 14px);
+            text-align: left;
+            margin-bottom: $i + px;
+        }
     }
+    // .card-description-1, .card-description-2 {
+    //     @include paragraphe-2(10px, $main-color, 14px);
+    //     text-align: left;
+    // }
 
     .card-link {
         margin: 20px auto;
     }
     &:hover {
-        box-shadow: 4px 4px 16px darken($shadow-color, 20%);
+        box-shadow: $box-shadow-hover;
     }
 }
