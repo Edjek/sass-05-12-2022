@@ -1,6 +1,8 @@
 // Nesting (imbriquation)
 //Attention le Nesting créé des selecteurs descendant par défaut
 // L'utilisation du préfixe "&" va créer un selecteur indépendant
+
+// SECTION HERO
 .hero {
     // Utilisation d'une mixin
     @include layout(50px, 30px);
@@ -22,6 +24,7 @@
     }
 }
 
+// SECTION DESCRIPTION
 .description {
     // Utilisation d'une mixin
     @include layout(40px, 20px);
@@ -34,11 +37,11 @@
     // @extend %paragraph;
 }
 
+// SECTION CARDS
 .cards {
     @include layout(50px, 30px);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    text-align: center;
 }

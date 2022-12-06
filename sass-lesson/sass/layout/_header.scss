@@ -1,4 +1,8 @@
 header {
-    @include layout(20px, 10px);
     background-color: $main-color;
+    padding: 20px 80px;
+}
+
+nav a {
+    color: #fff;
 }

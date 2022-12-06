@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(68, 75, 168);
+  color: rgb(99, 141, 213);
 }
 
 a {
@@ -46,17 +46,18 @@ a {
   color: #fff;
 }
 .btn-primary {
-  background-color: rgb(68, 75, 168);
+  background-color: rgb(99, 141, 213);
 }
 .btn:hover {
-  background-color: blue;
+  background-color: #2d59a5;
 }
 
 .card {
   width: 300px;
   min-height: 550px;
   border-radius: 5px;
-  box-shadow: 4px 4px 16px #333;
+  box-shadow: 4px 4px 16px #999;
+  text-align: center;
 }
 .card-img {
   width: 100%;
@@ -74,28 +75,30 @@ a {
 }
 .card .card-description-1, .card .card-description-2 {
   padding: 10px;
-  color: rgb(68, 75, 168);
+  color: rgb(99, 141, 213);
   font-size: 14px;
+  text-align: left;
 }
 .card .card-link {
   margin: 20px auto;
 }
 .card:hover {
-  box-shadow: 4px 4px 16px #999;
+  box-shadow: 4px 4px 16px #666666;
 }
 
 header {
-  padding: 20px;
-  max-width: 1080px;
-  margin: 10px auto;
-  border-radius: 5px;
-  background-color: rgb(68, 75, 168);
+  background-color: rgb(99, 141, 213);
+  padding: 20px 80px;
+}
+
+nav a {
+  color: #fff;
 }
 
 .hero {
-  padding: 50px;
   max-width: 1080px;
   margin: 30px auto;
+  padding: 50px;
   border-radius: 5px;
   padding: 10px 30px;
   text-align: center;
@@ -111,26 +114,25 @@ header {
   background-color: red;
 }
 .description {
-  padding: 40px;
   max-width: 1080px;
   margin: 20px auto;
+  padding: 40px;
   border-radius: 5px;
 }
 
 .description p {
   padding: 10px 30px;
-  color: blue;
+  color: #2d59a5;
   font-size: 20px;
 }
 
 .cards {
-  padding: 50px;
   max-width: 1080px;
   margin: 30px auto;
+  padding: 50px;
   border-radius: 5px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */

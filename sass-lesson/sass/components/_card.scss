@@ -2,7 +2,8 @@
     width: 300px;
     min-height: 550px;
     border-radius: $border-radius;
-    box-shadow: 4px 4px 16px #333;
+    box-shadow: 4px 4px 16px $shadow-color;
+    text-align: center;
     &-img{
         width: 100%;
         height: 180px;
@@ -19,12 +20,13 @@
 
     .card-description-1, .card-description-2 {
         @include paragraphe-2(10px, $main-color, 14px);
+        text-align: left;
     }
 
     .card-link {
         margin: 20px auto;
     }
     &:hover {
-        box-shadow: 4px 4px 16px #999;
+        box-shadow: 4px 4px 16px darken($shadow-color, 20%);
     }
 }
