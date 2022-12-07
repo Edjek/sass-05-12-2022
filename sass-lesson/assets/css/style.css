@@ -1,152 +1,147 @@
-.description p, .hero p {
-  padding: 20px;
-  color: #222;
-  font-size: 20px;
+.description p,
+.hero p {
+    padding: 20px;
+    color: #222;
+    font-size: 20px;
 }
 
 .card .card-title {
-  font-size: 30px;
-  color: rgb(57, 97, 230);
+    font-size: 30px;
+    color: rgb(57, 97, 230);
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-size: 18px;
-  color: #333;
-  font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
 }
 
 h1 {
-  color: #fff;
-  font-weight: bold;
-  color: #fff;
-  padding: 10px 30px;
-  border-radius: 5px;
-  text-align: center;
+    color: #fff;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 h2 {
-  color: rgb(99, 213, 164);
+    color: rgb(99, 213, 164);
 }
 
 a {
-  display: inline-block;
-  text-decoration: none;
-  color: #333;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
 }
 
 .btn {
-  border-radius: 5px;
-  padding: 10px 30px;
-  color: #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #fff;
 }
 .btn-primary {
-  background-color: rgb(99, 213, 164);
+    background-color: rgb(99, 213, 164);
 }
 .btn:hover {
-  background-color: #2da571;
+    background-color: #2da571;
 }
 
 .card {
-  width: 300px;
-  min-height: 550px;
-  border-radius: 5px;
-  box-shadow: 4px 4px 16px #999;
-  text-align: center;
+    width: 300px;
+    min-height: 550px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 16px #999;
+    text-align: center;
 }
 .card-img {
-  width: 100%;
-  height: 180px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: top;
-     object-position: top;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+    width: 100%;
+    height: 180px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .card .card-title {
-  text-align: center;
-  margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
 }
 .card .card-description-1 {
-  padding: 10px;
-  color: rgb(99, 213, 164);
-  font-size: 14px;
-  text-align: left;
-  margin-bottom: 1px;
+    padding: 10px;
+    color: rgb(99, 213, 164);
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 1px;
 }
 .card .card-description-2 {
-  padding: 10px;
-  color: rgb(99, 213, 164);
-  font-size: 14px;
-  text-align: left;
-  margin-bottom: 2px;
+    padding: 10px;
+    color: rgb(99, 213, 164);
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 2px;
 }
 .card .card-link {
-  margin: 20px auto;
+    margin: 20px auto;
 }
 .card:hover {
-  box-shadow: 4px 4px 16px #555;
+    box-shadow: 4px 4px 16px #555;
 }
 
 header {
-  background-color: rgb(99, 213, 164);
-  padding: 20px 80px;
+    background-color: rgb(99, 213, 164);
+    padding: 20px 80px;
 }
 
 nav a {
-  color: #fff;
+    color: #fff;
 }
 
 .hero {
-  max-width: 1080px;
-  margin: 30px auto;
-  padding: 50px;
-  border-radius: 5px;
-  padding: 10px 30px;
-  text-align: center;
+    max-width: 1080px;
+    margin: 30px auto;
+    padding: 50px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-align: center;
 }
 .hero h2 {
-  margin: 30px 0;
-  font-size: 40px;
+    margin: 30px 0;
+    font-size: 40px;
 }
 .hero .link {
-  color: red;
+    color: red;
 }
 .hero .link:hover {
-  background-color: red;
+    background-color: red;
 }
 .description {
-  max-width: 1080px;
-  margin: 20px auto;
-  padding: 40px;
-  border-radius: 5px;
+    max-width: 1080px;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 5px;
 }
 
 .description p {
-  padding: 10px 30px;
-  color: #2d59a5;
-  font-size: 20px;
+    padding: 10px 30px;
+    color: #2d59a5;
+    font-size: 20px;
 }
 
 .cards {
-  max-width: 1080px;
-  margin: 30px auto;
-  padding: 50px;
-  border-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}/*# sourceMappingURL=style.css.map */
-
-.hero-img {}
-
-.hero .hero-title {
-
-}
+    max-width: 1080px;
+    margin: 30px auto;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+} /*# sourceMappingURL=style.css.map */
