@@ -8,21 +8,23 @@
     @include layout(50px, 30px);
     padding: $padding;
     text-align: center;
+
     h2 {
         margin: 30px 0;
         font-size: multiplication(20px, 2);
     }
-    .hero-title {
 
-    }
+    .hero-title {}
+
     .link {
         color: red;
+
         &:hover {
             background-color: red;
         }
-        
+
     }
-    
+
     p {
         // @include paragraphe2;
         @extend %paragraph;

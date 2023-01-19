@@ -1,18 +1,18 @@
 // Les mixins permettent d'insérer des bouts de code qui se répètent avec des paramètres personnalisables
-@mixin layout($padding, $margin){
+@mixin layout($padding, $margin) {
     max-width: 1080px;
     margin: $margin auto;
     padding: $padding;
     border-radius: 5px;
 }
 
-@mixin paragraphe($a, $color, $font-size){
+@mixin paragraphe($a, $color, $font-size) {
     padding: $a;
     color: $color;
     font-size: $font-size;
 }
 
-@mixin paragraphe-2($padding, $color, $fsize){
+@mixin paragraphe-2($padding, $color, $fsize) {
     padding: $padding;
     color: $color;
     font-size: $fsize;
